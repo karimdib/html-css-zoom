@@ -67,3 +67,27 @@ main{
     top: 2px;
     right: 0;
 }
+
+
+
+footer{
+    min-height: 60px;
+    background-color: #222222;
+}
+
+.flex-footer{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.ciao{
+    display: inline-block;
+    padding: 0px 5px;
+}
+
+.icon{
+    font-size: 25px;
+    
+}
