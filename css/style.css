@@ -96,12 +96,21 @@ footer{
     font-size: 14px;
 }
 
+.cc{
+    padding-left: 10px;
+}
+/*padding cc(microphone)
+  per vedere meglio l'icona
+  -footer*/
+
+
 .icon{
     font-size: 25px;
     padding: 3px;    
 }
 .mini-arrow{
     font-size: 10px;
+    padding-left:0px ;
 }
 
 
