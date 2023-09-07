@@ -89,6 +89,7 @@ footer{
 .bottoni{
     display: inline-block;
     padding: 5px 5px;
+    text-align: center;
 }
 
 .bottoni > p{
@@ -99,6 +100,10 @@ footer{
     font-size: 25px;
     padding: 3px;    
 }
+.mini-arrow{
+    font-size: 10px;
+}
+
 
 /*Terza colonna-footer*/
 #end{
@@ -110,4 +115,6 @@ footer{
     vertical-align: middle;
 }
 
-/*Inizio-footer*/
+
+
+/*Fine-footer*/
