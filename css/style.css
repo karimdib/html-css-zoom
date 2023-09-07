@@ -10,6 +10,8 @@ main{
     color: white;
     height: 100vh;
     background-color: black;
+    overflow: scroll;
+       
     
 }
 
@@ -18,6 +20,7 @@ main{
     margin: 0 auto;
     padding:40px 10px 0px 20px;
     
+    
 }
 /*Fine-Generali*/
 
@@ -25,8 +28,10 @@ main{
 
 
 .icon-top-right{
+    position: static;
     display: flex;
     justify-content: flex-end;
+    
 }
 .speak-view{
     padding: 2px 5px ;
@@ -52,11 +57,13 @@ main{
 .square{
     display: flex;
     flex-wrap:wrap;
-    flex-basis: calc(100% / 7);    
+    flex-basis: calc(100% / 7);
+    
 }
 
 .immagine-completa{
     padding: 5px 2px;
+    
 }
 
 .sfondo{
@@ -76,7 +83,7 @@ main{
 /*Inizio-footer*/
 
 footer{
-    position: fixed;
+    position: sticky;
     bottom: 0;
     width: 100%;
     background-color: #222222;
