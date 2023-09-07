@@ -1,3 +1,5 @@
+/*Inizio-Generali*/
+
 *{
     margin: 0;
     padding: 0;
@@ -14,36 +16,12 @@ main{
 .container{
     max-width: 1500px;
     margin: 0 auto;
-    padding:40px 20px;
+    padding:40px 10px 0px 20px;
     
 }
+/*Fine-Generali*/
 
-.immagine-completa{
-    padding: 5px 2px;
-}
-
-.square{
-    display: flex;
-    flex-wrap: nowrap;
-    flex-basis: calc(100% / 7);
-    
-}
-
-.sfondo{
-    position: relative;
-}
-
-
-
-.micro-name{
-    position: absolute;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.2);
-    bottom: 0;
-    font-size: 14px;
-    padding: 2px;
-}
-
+/*Inizio-icon-top-right*/
 
 .speak-view{
     padding: 2px 5px ;
@@ -56,7 +34,6 @@ main{
     right: 30px;
 }
 
-
 .arrows{
     padding: 2px 5px ;
     border-radius: 5px;
@@ -68,7 +45,33 @@ main{
     right: 0;
 }
 
+/*Inizio-main*/
 
+.square{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-basis: calc(100% / 7);    
+}
+
+.immagine-completa{
+    padding: 5px 2px;
+}
+
+.sfondo{
+    position: relative;
+}
+
+.micro-name{
+    position: absolute;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+    bottom: 0;
+    font-size: 14px;
+    padding: 2px;
+}
+/*Fine-main*/
+
+/*Inizio-footer*/
 
 footer{
     
@@ -80,8 +83,7 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 60px;
-    
+    height: 60px;    
 }
 
 .bottoni{
@@ -89,16 +91,16 @@ footer{
     padding: 5px 5px;
 }
 
-.icon{
-    font-size: 25px;
-    padding: 3px;
-    
-}
-
 .bottoni > p{
     font-size: 14px;
 }
 
+.icon{
+    font-size: 25px;
+    padding: 3px;    
+}
+
+/*Terza colonna-footer*/
 #end{
     background: #4a4a4a;
     color: red;
@@ -107,3 +109,5 @@ footer{
     line-height: 60px;
     vertical-align: middle;
 }
+
+/*Inizio-footer*/
