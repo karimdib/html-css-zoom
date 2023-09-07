@@ -84,7 +84,7 @@ footer{
     
 }
 
-.ciao{
+.bottoni{
     display: inline-block;
     padding: 5px 5px;
 }
@@ -95,7 +95,7 @@ footer{
     
 }
 
-.ciao > p{
+.bottoni > p{
     font-size: 14px;
 }
 
@@ -103,7 +103,6 @@ footer{
     background: #4a4a4a;
     color: red;
     font-size: 15px;
-    font-weight: bold;
     padding: 0px 5px;
     line-height: 60px;
     vertical-align: middle;
